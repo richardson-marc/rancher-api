@@ -1,0 +1,27 @@
+{
+  "name": "rancher_catalog_upgrade_stacks",
+  "version": "0.0.5",
+  "description": "post deploys to new relic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rancher_catalog_upgrade_stacks": "index.js"
+  },
+  "author": "Jason Greathouse",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "es6-promise-pool": "^2.5.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^2.4.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
