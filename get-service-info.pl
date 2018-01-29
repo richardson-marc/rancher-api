@@ -52,7 +52,7 @@ if ($retcode == 0) {
 }
 
 # you'll get this (it'll print out); comment this when done.
-#print "dump shit\n";
+#print "dump stuff\n";
 print Dumper $decoded_json; # nope
 
 
