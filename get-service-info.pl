@@ -71,7 +71,6 @@ for ( @{$data->{data}} ) {
 }
 #use Data::Dumper;
 #print Dumper %hash;
-#print "fuck\n";
 #for my $name (keys %hash) {
 #    print "The id of '$name' is $hash{$name}\n";
 #}
@@ -80,7 +79,7 @@ for ( @{$data->{data}} ) {
 # parse the environment ID from the given vnet
 $ourenv = $hash{$vnet};
 print "ourenv is $ourenv\n";
-# fuckin sweet
+#  sweet
 ### now we get the stacks for the given environment
 chomp $ourenv;
 #my $stacks_url = "https://rancher.leankit.io/v1/projects/$ourenv/environments";
@@ -202,7 +201,7 @@ Dump %$newdata;
 #for my $name (keys %hash) {
 #    print "The id of '$name' is $hash{$name}\n";
 #}
-# fuck yeah!
+# yeah!
 print "newdata $newdata\n"; # a hash
 # it's actually a hashref
 
@@ -331,7 +330,7 @@ print "newnewdata is $newnewdata\n";
 for my $name (keys %newnewdata) {
     print "The id of '$name' is $hash{$name}\n";
 }
-# fuck yeah!
+#  yeah!
 # need a new hash
 use Data::Dumper;
 #print "Dumping...\n";
